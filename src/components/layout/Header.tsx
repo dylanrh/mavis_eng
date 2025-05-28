@@ -16,9 +16,9 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/our-story", label: "Our Story" },
-  // { href: "/activities", label: "Local Activities" },
+  { href: "/activities", label: "Local Activities" },
   { href: "/accommodation", label: "Accommodations" },
-  // { href: "/theme-advisor", label: "Theme Advisor" },
+  // { href: "/mavis", label: "Mavis The Dog" },
 ];
 
 export default function Header() {
