@@ -14,7 +14,7 @@ export const engagementDetailsContent: EngagementDetailsContent = {
   venueName: "Mon Ami",
   venueAddress: "1541 Ocean Ave, Santa Monica, CA 90401",
   description:
-    "Join us for an afternoon of joy, laughter, and celebration as we mark a fun milestone in our journey together. We will provide some apps and a round of champagne, but appreciate you helping us celebrate to your hearts desire",
+    "Join us for an afternoon of joy, laughter, and celebration as we mark a fun milestone in our journey together. We will provide some apps and a round of champagne, but appreciate you helping us celebrate to your hearts desire!",
   imageUrl:
     "https://partiful.imgix.net/user/0egHoXSRPdNlQQfrvyPaP8359bw1/73e1600c-affa-4032-ac?fit=clip&w=920&auto=format",
   dataAiHint: "engagement party",
@@ -34,28 +34,28 @@ export const localActivitiesContent: Activity[] = [
     id: "1",
     name: "44 the Musical",
     description:
-      "Right next to the venue with stunning ocean views, perfect for a relaxing stay.",
-    imageUrl: "/shore_hotel.jpg",
-    link: "https://www.shorehotel.com/",
-    dataAiHint: "shore hotel ocean view",
+      "A fun musical about President Obama at a Culver City theater. A great way to spend an evening!",
+    imageUrl: "/44.jpg",
+    link: "https://44theobamamusical.com/",
+    dataAiHint: "44 the Obama Musical",
   },
   {
     id: "2",
-    name: "Historic Downtown Blissville",
+    name: "Dog Ppl",
     description:
-      "Discover charming boutiques, art galleries, and cozy cafes in the heart of our town.",
-    imageUrl: "https://placehold.co/600x400.png",
-    link: "#",
-    dataAiHint: "historic town",
+      "A fun, private dog park where you can get coffee and drinks while watching dogs live their best lives.",
+    imageUrl: "/dogs_dog_ppl.png",
+    link: "https://www.dogppl.co/",
+    dataAiHint: "dog ppl",
   },
   {
     id: "3",
-    name: "Sunset View Winery",
+    name: "Venice Beach",
     description:
-      "Enjoy wine tasting with breathtaking views, especially magical at sunset.",
-    imageUrl: "https://placehold.co/600x400.png",
-    link: "#",
-    dataAiHint: "winery sunset",
+      "Walk around Venice Beach Boardwalk or stroll down Abbott Kinney.",
+    imageUrl: "/venice_beach.png",
+    link: "https://www.laparks.org/venice/",
+    dataAiHint: "venice beach",
   },
 ];
 
@@ -95,6 +95,16 @@ export const accommodationOptionsContent: Accommodation[] = [
     imageUrl: "/hotel_erwin.png",
     bookingLink: "https://www.hotelerwin.com/",
     dataAiHint: "hotel erwin venice beach",
+  },
+  {
+    id: "4",
+    name: "Courtyard Marriott MDR",
+    description:
+      "Great hotel in Marina del Rey with a fun rooftop bar and beautiful views of the water.",
+    imageUrl: "/marriott.png",
+    bookingLink:
+      "https://www.marriott.com/en-us/hotels/laxci-courtyard-marina-del-rey/overview/",
+    dataAiHint: "courtyard marriott marina del rey",
   },
 ];
 
