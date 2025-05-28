@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Forever Us',
+  title: 'Dy-Kal',
   description: 'Our wedding website - Join us in celebrating our love story.',
 };
 
